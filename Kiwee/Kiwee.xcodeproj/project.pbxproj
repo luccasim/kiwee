@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B6226A20FA049E00CAA080 /* Kiwee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B6226020FA049E00CAA080 /* Kiwee.framework */; };
+		83B6226F20FA049E00CAA080 /* KiweeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B6226E20FA049E00CAA080 /* KiweeTests.swift */; };
+		83B6227120FA049E00CAA080 /* Kiwee.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B6226320FA049E00CAA080 /* Kiwee.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83B6227D20FA07C300CAA080 /* QRcode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B6227B20FA07C300CAA080 /* QRcode.storyboard */; };
+		83B6227E20FA07C300CAA080 /* QRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B6227C20FA07C300CAA080 /* QRcodeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83B6226B20FA049E00CAA080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B6225720FA049E00CAA080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B6225F20FA049E00CAA080;
+			remoteInfo = Kiwee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83B6226020FA049E00CAA080 /* Kiwee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kiwee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B6226320FA049E00CAA080 /* Kiwee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kiwee.h; sourceTree = "<group>"; };
+		83B6226420FA049E00CAA080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B6226920FA049E00CAA080 /* KiweeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiweeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B6226E20FA049E00CAA080 /* KiweeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiweeTests.swift; sourceTree = "<group>"; };
+		83B6227020FA049E00CAA080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B6227B20FA07C300CAA080 /* QRcode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRcode.storyboard; sourceTree = "<group>"; };
+		83B6227C20FA07C300CAA080 /* QRcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B6225C20FA049E00CAA080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B6226620FA049E00CAA080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B6226A20FA049E00CAA080 /* Kiwee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B6225620FA049E00CAA080 = {
+			isa = PBXGroup;
+			children = (
+				83B6226220FA049E00CAA080 /* Kiwee */,
+				83B6226D20FA049E00CAA080 /* KiweeTests */,
+				83B6226120FA049E00CAA080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B6226120FA049E00CAA080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B6226020FA049E00CAA080 /* Kiwee.framework */,
+				83B6226920FA049E00CAA080 /* KiweeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B6226220FA049E00CAA080 /* Kiwee */ = {
+			isa = PBXGroup;
+			children = (
+				83B6227A20FA07C300CAA080 /* QrCodeReader */,
+				83B6226320FA049E00CAA080 /* Kiwee.h */,
+				83B6226420FA049E00CAA080 /* Info.plist */,
+			);
+			path = Kiwee;
+			sourceTree = "<group>";
+		};
+		83B6226D20FA049E00CAA080 /* KiweeTests */ = {
+			isa = PBXGroup;
+			children = (
+				83B6226E20FA049E00CAA080 /* KiweeTests.swift */,
+				83B6227020FA049E00CAA080 /* Info.plist */,
+			);
+			path = KiweeTests;
+			sourceTree = "<group>";
+		};
+		83B6227A20FA07C300CAA080 /* QrCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				83B6227B20FA07C300CAA080 /* QRcode.storyboard */,
+				83B6227C20FA07C300CAA080 /* QRcodeViewController.swift */,
+			);
+			path = QrCodeReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83B6225D20FA049E00CAA080 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B6227120FA049E00CAA080 /* Kiwee.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83B6225F20FA049E00CAA080 /* Kiwee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B6227420FA049E00CAA080 /* Build configuration list for PBXNativeTarget "Kiwee" */;
+			buildPhases = (
+				83B6225B20FA049E00CAA080 /* Sources */,
+				83B6225C20FA049E00CAA080 /* Frameworks */,
+				83B6225D20FA049E00CAA080 /* Headers */,
+				83B6225E20FA049E00CAA080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kiwee;
+			productName = Kiwee;
+			productReference = 83B6226020FA049E00CAA080 /* Kiwee.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83B6226820FA049E00CAA080 /* KiweeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B6227720FA049E00CAA080 /* Build configuration list for PBXNativeTarget "KiweeTests" */;
+			buildPhases = (
+				83B6226520FA049E00CAA080 /* Sources */,
+				83B6226620FA049E00CAA080 /* Frameworks */,
+				83B6226720FA049E00CAA080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B6226C20FA049E00CAA080 /* PBXTargetDependency */,
+			);
+			name = KiweeTests;
+			productName = KiweeTests;
+			productReference = 83B6226920FA049E00CAA080 /* KiweeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B6225720FA049E00CAA080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = casimir;
+				TargetAttributes = {
+					83B6225F20FA049E00CAA080 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					83B6226820FA049E00CAA080 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 83B6225A20FA049E00CAA080 /* Build configuration list for PBXProject "Kiwee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83B6225620FA049E00CAA080;
+			productRefGroup = 83B6226120FA049E00CAA080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B6225F20FA049E00CAA080 /* Kiwee */,
+				83B6226820FA049E00CAA080 /* KiweeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B6225E20FA049E00CAA080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B6227D20FA07C300CAA080 /* QRcode.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B6226720FA049E00CAA080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B6225B20FA049E00CAA080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B6227E20FA07C300CAA080 /* QRcodeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B6226520FA049E00CAA080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B6226F20FA049E00CAA080 /* KiweeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83B6226C20FA049E00CAA080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B6225F20FA049E00CAA080 /* Kiwee */;
+			targetProxy = 83B6226B20FA049E00CAA080 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83B6227220FA049E00CAA080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83B6227320FA049E00CAA080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83B6227520FA049E00CAA080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Kiwee/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = owee.Kiwee;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83B6227620FA049E00CAA080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Kiwee/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = owee.Kiwee;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83B6227820FA049E00CAA080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KiweeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = owee.KiweeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83B6227920FA049E00CAA080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KiweeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = owee.KiweeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B6225A20FA049E00CAA080 /* Build configuration list for PBXProject "Kiwee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B6227220FA049E00CAA080 /* Debug */,
+				83B6227320FA049E00CAA080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B6227420FA049E00CAA080 /* Build configuration list for PBXNativeTarget "Kiwee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B6227520FA049E00CAA080 /* Debug */,
+				83B6227620FA049E00CAA080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B6227720FA049E00CAA080 /* Build configuration list for PBXNativeTarget "KiweeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B6227820FA049E00CAA080 /* Debug */,
+				83B6227920FA049E00CAA080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B6225720FA049E00CAA080 /* Project object */;
+}
